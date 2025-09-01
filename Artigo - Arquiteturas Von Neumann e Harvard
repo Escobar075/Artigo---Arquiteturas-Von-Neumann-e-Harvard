@@ -1,4 +1,4 @@
-# Arquiteturas Von Neumann e Harvard e suas Aplicações em Sistemas Computacionais Modernos  
+# Arquiteturas Von Neumann e Harvard  
 
 📄 **Autor:** Miguel Picanço Monteiro Escobar  
 📚 **Disciplina:** Microprocessadores e Microcontroladores  
@@ -6,65 +6,20 @@
 ---
 
 ## 📖 Resumo
-A arquitetura de computadores é a base de qualquer sistema eletrônico, e a escolha entre os modelos **Von Neumann** e **Harvard** impacta diretamente o desempenho e o custo de um processador.  
+O artigo apresenta um estudo comparativo entre as arquiteturas **Von Neumann** e **Harvard** e suas aplicações em sistemas computacionais modernos.  
 
-- **Von Neumann**: utiliza uma única memória e um barramento compartilhado para instruções e dados. É a mais comum em computadores de propósito geral, como PCs e servidores, pela sua flexibilidade, mas pode sofrer com o **gargalo de desempenho**.  
-- **Harvard**: separa memória e barramentos de instruções e dados, permitindo acessos simultâneos e maior velocidade. É aplicada em sistemas embarcados e processadores de sinais digitais (DSPs), onde previsibilidade e rapidez são essenciais.  
-
-Em suma, enquanto a arquitetura Von Neumann é ideal para sistemas versáteis, a Harvard (e suas variantes) é crucial no avanço da **automação** e da **Internet das Coisas (IoT)**.  
-
----
-
-## 🏛 Estrutura do Trabalho
-
-1. **Introdução**  
-   - Contexto histórico e relevância das arquiteturas.  
-
-2. **Arquitetura de Von Neumann**  
-   - Modelo unificado de memória.  
-   - Vantagens em sistemas de propósito geral.  
-   - Exemplos: PCs, notebooks, servidores.  
-
-3. **Arquitetura Harvard**  
-   - Memórias e barramentos separados.  
-   - Maior eficiência em tempo real.  
-   - Exemplos: microcontroladores (PIC, ARM Cortex-M), DSPs.  
-
-4. **Comparativo e Conclusão**  
-   - Diferenças fundamentais entre as arquiteturas.  
-   - Aplicações práticas.  
-   - Uso de arquiteturas híbridas em sistemas modernos.  
-
-5. **Referências**  
-   - Patterson & Hennessy (2014).  
-   - Tanenbaum & Austin (2012).  
-   - Documentações da Microchip e Texas Instruments.  
+- **Von Neumann**: memória e barramento únicos → flexível, usada em PCs e servidores.  
+- **Harvard**: memórias e barramentos separados → maior desempenho, usada em sistemas embarcados e DSPs.  
+- **Híbrida**: combinação das duas para equilibrar velocidade e versatilidade.  
 
 ---
 
-## 📊 Comparativo Resumido
-
-| Característica  | Von Neumann | Harvard |
-|-----------------|-------------|---------|
-| **Memória**     | Única (instruções + dados) | Separada (instruções e dados) |
-| **Barramento**  | Único e compartilhado | Dedicados para cada memória |
-| **Velocidade**  | Mais lenta (gargalo) | Mais rápida (paralelismo) |
-| **Complexidade**| Mais simples | Mais complexa e cara |
-| **Aplicação**   | PCs, servidores | Sistemas embarcados, DSPs |
-
----
-
-## 🚀 Tecnologias Relacionadas
-- **Processadores de PCs** → Intel Core, AMD Ryzen  
-- **Microcontroladores** → PIC, ARM Cortex-M (IoT, automação, embarcados)  
-- **DSPs** → Texas Instruments TMS320 (áudio, vídeo, telecomunicações)  
-
----
-
-## 📌 Observação
-Este artigo foi desenvolvido como parte da disciplina **Microprocessadores e Microcontroladores**, com foco no estudo teórico e aplicado das arquiteturas de computadores.  
+## 📌 Tecnologias Relacionadas
+- PCs e servidores (Intel, AMD)  
+- Microcontroladores (PIC, ARM Cortex-M)  
+- Processadores de Sinais Digitais (TI TMS320)  
 
 ---
 
 ## 📜 Licença
-Este repositório segue a licença **MIT**. Você é livre para utilizar, modificar e compartilhar, desde que mantenha os devidos créditos ao autor.  
+Distribuído sob a licença **MIT**.  
